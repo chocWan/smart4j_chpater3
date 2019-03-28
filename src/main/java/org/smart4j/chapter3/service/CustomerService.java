@@ -1,14 +1,12 @@
 package org.smart4j.chapter3.service;
 
-import org.slf4j.LoggerFactory;
-import org.smart4j.chapter2.helper.DatabaseHelper;
-import org.smart4j.chapter2.model.Customer;
+import org.smart4j.chapter3.model.Customer;
+import org.smart4j.framework.helper.DatabaseHelper;
 
 import java.util.List;
 import java.util.Map;
 
 public class CustomerService {
-    private static final org.slf4j.Logger LOGGER = LoggerFactory.getLogger(CustomerService.class);
 
     /**
      * 获取客户列表
